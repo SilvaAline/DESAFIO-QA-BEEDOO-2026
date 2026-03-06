@@ -1,14 +1,15 @@
 # Estratégia de Testes
 
-Este documento descreve a estratégia adotada para testar o módulo de cadastro e listagem de cursos.
+Este documento descreve a estratégia de testes utilizada no desafio QA.
 
-Tipos de teste aplicados:
+Tipos de testes realizados:
 
-• Teste funcional  
-• Teste exploratório  
-• Testes de validação de campos  
-• Testes negativos  
+- Teste funcional
+- Teste exploratório
+- Teste negativo
+- Teste de validação de campos
 
-Objetivo:
+Módulos analisados:
 
-Garantir que o fluxo principal da aplicação funcione corretamente e identificar possíveis falhas no sistema.
+- Cadastro de cursos
+- Listagem de cursos
