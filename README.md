@@ -1,6 +1,6 @@
 # DESAFIO QA - BEEDOO 2026
 
-Este repositório contém a análise e execução de testes do módulo de cadastro e listagem de cursos da aplicação:
+Este projeto apresenta a análise, planejamento e execução de testes do módulo de cadastro e listagem de cursos da aplicação:
 
 https://creative-sherbet-a51eac.netlify.app/
 
@@ -8,55 +8,75 @@ https://creative-sherbet-a51eac.netlify.app/
 
 # Objetivo da aplicação
 
-A aplicação permite cadastrar cursos e visualizar os cursos cadastrados em uma lista.
+A aplicação permite cadastrar e visualizar cursos em um sistema simples de gerenciamento de conteúdo educacional.
 
 ---
 
 # Fluxos principais
 
-1 Cadastro de cursos
+Cadastro de cursos
 
-Usuário preenche informações do curso e salva no sistema.
+1 Acessar tela de cadastro  
+2 Preencher campos  
+3 Salvar curso  
+4 Curso aparece na lista  
 
-2 Listagem de cursos
+Listagem de cursos
 
-Usuário visualiza cursos cadastrados.
+1 Acessar tela principal  
+2 Visualizar cursos cadastrados  
 
 ---
 
-# Pontos críticos para teste
+# Pontos críticos
 
 Cadastro de cursos  
 Validação de campos obrigatórios  
-Listagem de cursos  
-Persistência de dados
+Persistência de dados  
+Exibição correta da lista  
+
+---
+
+# Estratégia de testes
+
+Tipos de teste realizados:
+
+Teste funcional  
+Teste negativo  
+Teste exploratório  
 
 ---
 
 # Casos de teste
 
-Os casos de teste estão documentados na planilha:
+Documentados na planilha:
 
-(ver pasta casos-de-teste)
-
----
-
-# Execução dos testes
-
-Testes realizados manualmente.
-
-Evidências disponíveis na pasta:
-
-/evidencias
+(ver arquivo casos-de-teste/link-planilha.txt)
 
 ---
 
 # Registro de bugs
 
-Os bugs encontrados estão registrados em:
+Documentados em:
 
 /bugs/relatorio-bugs.md
 
+---
+
+# Evidências
+
+Disponíveis em:
+
+/evidencias
+
+---
+
+# Ferramentas utilizadas
+
+GitHub  
+Google Sheets  
+Google Drive  
+Teste manual exploratório
 
 
 
