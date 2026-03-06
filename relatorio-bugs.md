@@ -1,40 +1,22 @@
 # Bug 001
 
 Título:
-Curso cadastrado não aparece na lista
+Sistema permite cadastro de curso com campo obrigatório vazio
 
 Passos para reproduzir:
 
-1. Acessar página de cadastro
-2. Criar curso "Teste QA"
-3. Salvar curso
-4. Ir para listagem
+1. Acessar tela de cadastro
+2. Deixar campo "Nome do curso" vazio
+3. Clicar em salvar
 
 Resultado atual:
-O curso não aparece na lista.
+
+O sistema salva o curso sem nome.
 
 Resultado esperado:
-O curso deveria aparecer imediatamente.
+
+O sistema deveria impedir o cadastro e exibir mensagem de erro.
 
 Severidade:
+
 Alta
-
-# Bug 002
-
-Título:
-Sistema permite cadastro com campos vazios
-
-Passos para reproduzir:
-
-1. Acessar cadastro
-2. Deixar campos vazios
-3. Clicar salvar
-
-Resultado atual:
-Curso é cadastrado sem dados.
-
-Resultado esperado:
-Sistema deve validar campos obrigatórios.
-
-Severidade:
-Crítica
