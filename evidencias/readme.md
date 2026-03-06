@@ -1,9 +1,8 @@
-# Evidências de Teste
+# Evidências de Testes
 
-Esta pasta contém prints e gravações de tela da execução dos testes.
+Nesta pasta serão armazenadas evidências de execução de testes.
 
-Exemplos:
+Tipos de evidência:
 
-• Cadastro de curso com sucesso
-• Validação de campos obrigatórios
-• Listagem de cursos
+- Prints de tela
+- Gravações de execução de testes
