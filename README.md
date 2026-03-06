@@ -1,116 +1,62 @@
 # DESAFIO QA - BEEDOO 2026
 
-Este repositório contém a análise, planejamento e execução de testes do módulo de **cadastro e listagem de cursos** da aplicação:
+Este repositório contém a análise e execução de testes do módulo de cadastro e listagem de cursos da aplicação:
 
 https://creative-sherbet-a51eac.netlify.app/
 
 ---
 
-# 1. Objetivo da Aplicação
+# Objetivo da aplicação
 
-A aplicação tem como objetivo permitir o **cadastro e gerenciamento de cursos**, possibilitando que usuários registrem novos cursos e visualizem cursos existentes.
-
-Esse tipo de sistema é comum em plataformas de gestão de aprendizagem (LMS), utilizadas para treinamento corporativo e gestão de conteúdos educacionais.
+A aplicação permite cadastrar cursos e visualizar os cursos cadastrados em uma lista.
 
 ---
 
-# 2. Principais Fluxos da Aplicação
+# Fluxos principais
 
-## Fluxo 1 — Cadastro de cursos
+1 Cadastro de cursos
 
-Usuário registra um novo curso no sistema.
+Usuário preenche informações do curso e salva no sistema.
 
-Etapas:
+2 Listagem de cursos
 
-1. Acessar tela de cadastro
-2. Preencher campos do curso
-3. Salvar o curso
-4. Sistema registra o curso
-5. Curso aparece na listagem
+Usuário visualiza cursos cadastrados.
 
 ---
 
-## Fluxo 2 — Listagem de cursos
+# Pontos críticos para teste
 
-Usuário visualiza os cursos cadastrados.
-
-Etapas:
-
-1. Acessar tela inicial
-2. Sistema exibe cursos cadastrados
-3. Usuário visualiza informações do curso
+Cadastro de cursos  
+Validação de campos obrigatórios  
+Listagem de cursos  
+Persistência de dados
 
 ---
 
-# 3. Pontos Críticos para Teste
-
-Foram identificados os seguintes pontos críticos:
-
-### Cadastro de cursos
-
-- Validação de campos obrigatórios
-- Integridade das informações
-- Prevenção de cadastro duplicado
-
-### Listagem de cursos
-
-- Atualização da lista após cadastro
-- Exibição correta das informações
-
-### Experiência do usuário
-
-- Mensagens de erro claras
-- Comportamento previsível da interface
-
----
-
-# 4. Estratégia de Testes
-
-Foram aplicados os seguintes tipos de teste:
-
-- Teste funcional
-- Teste exploratório
-- Teste de validação de campos
-- Testes negativos
-
----
-
-# 5. Casos de Teste
+# Casos de teste
 
 Os casos de teste estão documentados na planilha:
 
-CASOS-DE-TESTE-GOOGLE-SHEETS
-
-Link disponível em:
-
-casos-de-teste/link-planilha.txt
+(ver pasta casos-de-teste)
 
 ---
 
-# 6. Execução dos Testes
+# Execução dos testes
 
-Os cenários foram executados manualmente na aplicação.
+Testes realizados manualmente.
 
-Evidências disponíveis em:
+Evidências disponíveis na pasta:
 
 /evidencias
 
 ---
 
-# 7. Registro de Bugs
+# Registro de bugs
 
-Os bugs encontrados estão documentados em:
+Os bugs encontrados estão registrados em:
 
-bugs/relatorio-bugs.md
+/bugs/relatorio-bugs.md
 
----
-
-# 8. Ferramentas utilizadas
-
-- GitHub
-- Google Sheets
-- Google Drive
-- Teste manual exploratório
 
 
 
