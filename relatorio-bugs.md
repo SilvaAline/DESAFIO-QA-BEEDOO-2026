@@ -18,3 +18,23 @@ O curso deveria aparecer imediatamente.
 
 Severidade:
 Alta
+
+# Bug 002
+
+Título:
+Sistema permite cadastro com campos vazios
+
+Passos para reproduzir:
+
+1. Acessar cadastro
+2. Deixar campos vazios
+3. Clicar salvar
+
+Resultado atual:
+Curso é cadastrado sem dados.
+
+Resultado esperado:
+Sistema deve validar campos obrigatórios.
+
+Severidade:
+Crítica
