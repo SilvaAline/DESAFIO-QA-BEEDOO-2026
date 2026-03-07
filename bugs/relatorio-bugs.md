@@ -35,9 +35,13 @@ Sistema permite cadastrar curso duplicado.
 Passos para Reproduzir
 
 1 Acessar a tela de Cadastro de Cursos.
+
 2 Cadastrar um curso com o nome "Inglês Básico" e salvar.
+
 3 Retornar à tela de cadastro.
+
 4 Tentar cadastrar novamente um curso com o nome "Inglês Básico".
+
 5 Clicar no botão Salvar.
 
 Resultado Atual:
