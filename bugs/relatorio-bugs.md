@@ -15,11 +15,14 @@ Passos para reproduzir:
 
 
 Resultado atual:
+
 Sistema salva curso sem nome.
 
 
 Resultado esperado:
+
 Sistema deveria impedir cadastro.
+
 
 Severidade:
 Alta
