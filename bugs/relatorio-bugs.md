@@ -13,16 +13,15 @@ Passos para reproduzir:
 
 3 Clicar em salvar
 
-Resultado atual:
 
+Resultado atual:
 Sistema salva curso sem nome.
 
-Resultado esperado:
 
+Resultado esperado:
 Sistema deveria impedir cadastro.
 
 Severidade:
-
 Alta
 
 
