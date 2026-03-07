@@ -63,3 +63,25 @@ Caso exista, o sistema deve:
 Severidade:
 Média
 
+
+## Bug 004
+
+Título do Bug:
+Sistema permite cadastrar nome de curso com excesso de caracteres.
+
+Passos para Reproduzir
+
+1 Acessar a tela de cadastro de cursos.
+
+2 Inserir um nome de curso com mais de 255 caracteres.
+
+3 Clicar em Salvar.
+
+Resultado Atual:
+O sistema aceita e salva o nome do curso com excesso de caracteres.
+
+Resultado Esperado:
+O sistema deve limitar o campo a 255 caracteres ou impedir o cadastro exibindo uma mensagem de validação.
+
+Severidade
+Média
