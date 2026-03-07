@@ -89,3 +89,5 @@ O sistema deve limitar o campo a 255 caracteres ou impedir o cadastro exibindo u
 
 Severidade
 Média
+
+https://docs.google.com/spreadsheets/d/1qrIuY_N_eLovk1iHIOJpGtp2wPPI6oaP3MBoKMNdaKo/edit?usp=sharing
