@@ -44,9 +44,11 @@ Passos para Reproduzir
 
 5 Clicar no botão Salvar.
 
+
 Resultado Atual:
 
 O sistema permite salvar o cadastro mesmo quando já existe um curso com o mesmo nome, criando um registro duplicado.
+
 
 Resultado Esperado:
 
@@ -56,6 +58,7 @@ Caso exista, o sistema deve:
 
 * Bloquear o cadastro duplicado, ou
 * Exibir uma mensagem de alerta ao usuário, informando que o curso já está cadastrado.
+
 
 Severidade:
 Média
